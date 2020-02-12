@@ -7,4 +7,5 @@ print('c:\\python27\\nou\\'+x)
 print(f'c:\\python27\\nou\\{x}')
 print('c:\\python27\\nou\\{}'.format(x))
 print("c:\\python27\\nou\\{}\\{}".format(x, 123))
+
 print("c:\\python27\\nou\\{x}\\{y}".format(x=x, y=123))
