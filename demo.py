@@ -1,4 +1,3 @@
-from typing import Set
 def num():
     print(2 + 2)
 num()
