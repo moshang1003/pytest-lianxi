@@ -1,3 +1,10 @@
+from hogwarts.sdet.Student import Student
+
+
+def fun(*x):
+    print(x)
+    fun(1,2)
+
 def num():
     print(2 + 2)
 num()
@@ -48,3 +55,6 @@ i = 1
 while i < 6:
     print(i)
     i += 1
+
+
+Student()
